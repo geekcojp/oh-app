@@ -1,5 +1,5 @@
 import { combineReducers } from '@reduxjs/toolkit';
-// import todoModule from '../modules/todo-module/todo-module';
+import stoneModules from './features/stone';
 import { State } from './types';
 
 export type RootState = {
@@ -7,5 +7,5 @@ export type RootState = {
 };
 
 export const rootReducer = combineReducers({
-  // stoneItems: stoneModules.reducer,
+  stoneItems: stoneModules.reducer,
 });

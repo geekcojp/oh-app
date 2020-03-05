@@ -1,7 +1,7 @@
-export type Stone = {
+export type StoneTypes = {
   id: number;
   color: '' | 'white' | 'black';
   postion: number;
 }
 
-export type State = Stone[]
+export type State = StoneTypes[]
